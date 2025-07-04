@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+button {
+      padding: 15px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 8px;
+      background-color: #e0e0e0;
+      cursor: pointer;
+     
+    }
+    button:hover {
+      background-color: #4974e9;
+    }
+    button.operator {
+      background-color: #ff9800;
+      color: white;
+    }
+    button.equal {
+      background-color: #4caf50;
+     
+    }
+    #display {
+      
+      font-size: 1.5em;
+      background-color: #f0f0f0;
+      color: #333;
+    }
